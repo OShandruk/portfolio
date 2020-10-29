@@ -355,7 +355,6 @@ body {
 .front-page__my-mame {
   font-weight: bold;
   font-size: 26px;
-  line-height: 31px;
   text-transform: uppercase;
   font-family: var(--font-main);
   color: var(--txt-c-accent);
@@ -380,11 +379,21 @@ body {
   cursor: pointer;
 }
 
+.my-photo__end-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .front-page-my-foto {
   width: 100px;
   margin-bottom: 20px;
 }
+.my-photo__end-button {
+  text-align: center;
+}
 .front-page-my-decr {
+  display: block;
   font-size: 15px;
   line-height: 140%;
   color: var(--txt-c-light);
@@ -392,6 +401,7 @@ body {
   text-transform: uppercase;
 }
 .front-page-my-video-btn {
+  display: block;
   font-size: 15px;
   text-transform: uppercase;
   font-weight: bold;
@@ -927,3 +937,109 @@ body {
   margin: 0;
   padding-left: 8px;
 }
+
+@media only screen and (min-width: 640px) {
+  .front-page__my-mame {
+    font-size: 36px;
+  }
+  .front-page__professional_1 { 
+    display: block;
+    margin-left: 40px;
+  }
+  .front-page__professional {
+    font-size: 55px;
+    line-height: 66px;
+  }
+  .front-page__description {
+    color: var(--txt-c-grey);
+    font-size: 17px;
+    line-height: 150%;
+    padding: 0px 100px 0px 100px;
+  }
+  .my-photo__end-button {
+    flex-direction: row;
+    margin-bottom: 50px;
+  }
+  .front-page-my-foto {
+    margin-right: 40px;
+  }
+  .my-button-video__end-desc {
+    text-align: left;
+  }
+  .front-page-my-decr_1  {
+    display: block;
+  }
+  .front-page__gallery-btn  {
+    margin-bottom: 50px;
+  }
+  .front-page__laptop-img {
+    margin-bottom: 80px;
+  }
+  .about .container {
+    position: relative;
+  }
+  
+  .about-img-text {
+    position: absolute;
+    right: 22px;
+    top: 228px;
+    font-size: 200px;
+    line-height: 240px;
+  }
+  
+  .about-img {
+    width: 361px;
+    height: 390px;
+    left: -105px;
+    top: 70px;
+  }
+  
+  .about-img-container {
+    margin-bottom: 0;
+  }
+  
+  .about-title {
+    font-size: 50px;
+    line-height: 60px;
+    width: 600px;
+  }
+  
+  .about-descr {
+    font-size: 36px;
+    line-height: 43px;
+    margin-bottom: 60px;
+  }
+  
+  .about-text:last-child {
+    width: 320px;
+    margin-bottom: 84px;
+  }
+  
+  .team-projects-title,
+  .personal-projects-title {
+    text-align: left;
+    width: 400px;
+    font-size: 50px;
+    line-height: 60px;
+  }
+  
+  .team-project-item,
+  .personal-project-item {
+    margin: 0 25px 40px 25px;
+  }
+  
+  .callback-form .container,
+  .personal-projects .container,
+  .team-projects .container {
+    align-items: normal;
+  }
+  
+  .team-projects-title-bgd {
+    font-size: 200px;
+    line-height: 240px;
+    top: 19px;
+  }
+  
+
+}
+
