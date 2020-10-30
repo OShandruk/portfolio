@@ -494,7 +494,7 @@ body {
   align-items: center;
   box-sizing: border-box;
   margin: auto;
-  padding: 30px 10px 55px 10px;
+  padding: 30px 10px 30px 10px;
 }
 
 .container-left {
@@ -693,7 +693,7 @@ body {
 }
 .callaback-form-container {
   background: var(--c-dark);
-  padding: 35px 30px 40px 30px;
+  padding: 35px 107px 80px 107px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -715,10 +715,12 @@ body {
 }
 .callback-form-input {
   background: transparent;
+  width: 100%;
   border: none;
   border-bottom: 1px solid var(--c-grey-blue);
   padding: 15px;
   font-size: 17px;
+  box-sizing: border-box;
   line-height: 150%;
   color: var(--txt-c-grey);
   text-align: center;
@@ -845,6 +847,16 @@ body {
 
 /* FOOTER  */
 /* FOOTER SECTION */
+.footer__row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+footer-column {
+  display:flex;
+  flex-direction: column;
+}
 
 .footer-my-name {
   font-weight: bold;
@@ -855,6 +867,7 @@ body {
 }
 
 .footer-my-profession {
+  display: block;
   font-size: 17px;
   line-height: 150%;
   text-align: center;
@@ -862,6 +875,7 @@ body {
 }
 
 .footer-my-tel {
+  display: block;
   font-weight: bold;
   font-size: 17px;
   line-height: 150%;
@@ -872,6 +886,7 @@ body {
 }
 
 .footer-my-mail {
+  display: block;
   font-size: 17px;
   line-height: 150%;
   text-align: center;
@@ -892,6 +907,9 @@ body {
 
 .social-links-item-link:last-child {
   margin-right: 0;
+}
+.social-links {
+  text-align: center;
 }
 
 /* MULTI SELECT */
@@ -1039,7 +1057,60 @@ body {
     line-height: 240px;
     top: 19px;
   }
-  
+
+  .calculator-title {
+    width: 100%;
+    text-align: left;
+    font-size: 50px;
+    line-height: 60px;
+    margin-bottom: 40px;
+  }
+  .calculator-title-span {
+    display: block;
+  }
+  .calculator-descr {
+    font-size: 36px;
+    line-height: 149%;
+    text-align: left;
+  }
+  .calculator-descr-accent {
+    background: var(--c-accent);
+  }
+  .container {
+    padding: 30px 20px 30px 20px;
+    align-items:flex-start;
+  }
+  .calculator-form {
+    align-self: stretch;
+    z-index: 2;
+  }
+  .calculator {
+    position: relative;
+  }
+  .calculator-icon {
+    position: absolute;
+    top: 460px;
+    right: 0;
+    width: 344px;
+    height: 199px;
+  }
+  .calculator-text {
+    text-align: left;
+    max-width: 330px;
+    margin-bottom: 90px;
+  }
+  .footer__row {
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .footer-my-tel {
+    text-align:left;
+  }
+  .footer-my-profession {
+    text-align-last: left;
+  }
+ 
 
 }
 
