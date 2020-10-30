@@ -1104,11 +1104,18 @@ footer-column {
     justify-content: space-between;
     flex-wrap: wrap;
   }
+  footer-column {
+    flex: 1 1 50%;
+  }
+
   .footer-my-tel {
     text-align:left;
   }
   .footer-my-profession {
     text-align-last: left;
+  }
+  .front-page>.container {
+    align-items: center;
   }
  
 
