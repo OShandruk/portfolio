@@ -1104,8 +1104,8 @@ footer-column {
     justify-content: space-between;
     flex-wrap: wrap;
   }
-  footer-column {
-    flex: 1 1 50%;
+  .footer-column {
+    margin-right: 20px;
   }
 
   .footer-my-tel {
@@ -1116,6 +1116,11 @@ footer-column {
   }
   .front-page>.container {
     align-items: center;
+  }
+  .social-links {
+    flex: 1 1 100%;
+    display: flex;
+    justify-content: flex-start;
   }
  
 
