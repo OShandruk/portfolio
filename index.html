@@ -7,6 +7,7 @@
    <link rel="stylesheet" href="css/normalize.min.css">
    <link rel="stylesheet" href="css/font-awesome.min.css">
    <link rel="stylesheet" href="css/choices.min.css">
+   <link rel="stylesheet" href="css/aos.css">
    <link rel="stylesheet" href="css/style.css">
    <title>Portfolio</title>
 </head>
@@ -19,233 +20,287 @@
             <a href="$" class="logo-link">
                <img src="img/goit-logo.svg" alt="logo">
             </a>
+            <menu class="header-menu">
+               <ul class="header-menu-list">
+                  <li><a href="#about" class="header-menu-link">About</a></li>
+                  <li><a href="#projects" class="header-menu-link">Progects</a></li>
+                  <li><a href="#calculator" class="header-menu-link">Cost calculator</a></li>
+                  <li><a href="#contacts" class="header-menu-link">Contacts</a></li>
+               </ul>
+            </menu>
             <div class="front-page__burger-wrap">
                <a href="#" class="here__me-btn"> - hire me</a>
                <a href="#" class="mobile__menu" id="mobile-menu-btn"><i class="fa fa-bars" aria-hidden="true"></i></a>
             </div>
 
          </nav>
-         <h1 class="front-page__my-mame">[Oleksandr Shandruk]</h1>
-         <h2 class="front-page__professional">{Frontend} <span class="front-page__professional_1">_DEVELOPER</span> </h2>
-         <p class="front-page__description">/ Using HTML, CSS, JavaScript, React Native and Node.js I help to build
-            websites, small and medium web apps for business</p>
-         <button class="front-page__gallery-btn accent-btn">See my recent works —</button>
-         <div class="my-photo__end-button">
-            <img src="img/my-photo.jpg" alt="myphoto" class="front-page-my-foto">
-            <div class="my-button-video__end-desc">
-               <p class="front-page-my-decr">About me <span class="front-page-my-decr_1" >in 2 minutes</span> </p>
-               <buttton class="front-page-my-video-btn" id="my-video-btn">
-               <i class="fa fa-play" aria-hidden="true"></i>
-               PLAY
-               </buttton>
-            </div>   
-            
-            
-         </div>
-         
+         <div class="front-page-row">
+            <div class="front-page-column front-page-column-experience ">
+               <!-- EXPERIENCE  -->
+               <div class="experience-container" data-aos="fade-right" data-aos-delay="500">
+                  <h3 class="experience-title">My Coding Skills<br>
+                     & Experience</h3>
 
-         <img src="img/laptop.svg" alt="laptop" class="front-page__laptop-img">
+                  <div class="experience-skill">
+                     <div class="experience-dots__row">
+                        <div class="experience-dots__column">
+                           <div class="experience-dots">
+                              <i class="experience-dots-item experience-dots-item-accent far fa-circle"></i>
+                              <i class="experience-dots-item experience-dots-item-accent far fa-circle"></i>
+                              <i class="experience-dots-item experience-dots-item-accent far fa-circle"></i>
+                              <i class="experience-dots-item experience-dots-item-accent far fa-circle"></i>
+                              <i class="experience-dots-item experience-dots-item-accent far fa-circle"></i>
+                           </div>
+                        </div>
+                        <div class="experience-dots__column">
+                           <div class="experience-text">Html</div>
+                        </div>
 
-         <!-- EXPERIENCE  -->
-         <div class="experience-container">
-            <h3 class="experience-title">My Coding Skills<br>
-               & Experience</h3>
-
-            <div class="experience-skill">
-               <div class="experience-dots__row">
-                  <div class="experience-dots__column">
-                     <div class="experience-dots">
-                        <i class="experience-dots-item experience-dots-item-accent far fa-circle"></i>
-                        <i class="experience-dots-item experience-dots-item-accent far fa-circle"></i>
-                        <i class="experience-dots-item experience-dots-item-accent far fa-circle"></i>
-                        <i class="experience-dots-item experience-dots-item-accent far fa-circle"></i>
-                        <i class="experience-dots-item experience-dots-item-accent far fa-circle"></i>
                      </div>
-                  </div>
-                  <div class="experience-dots__column">
-                     <div class="experience-text">Html</div>
-                  </div>
+                     <div class="experience-dots__row">
+                        <div class="experience-dots__column">
+                           <div class="experience-dots">
+                              <i class="experience-dots-item experience-dots-item-accent far fa-circle"></i>
+                              <i class="experience-dots-item experience-dots-item-accent far fa-circle"></i>
+                              <i class="experience-dots-item experience-dots-item-accent far fa-circle"></i>
+                              <i class="experience-dots-item experience-dots-item-accent far fa-circle"></i>
+                              <i class="experience-dots-item far fa-circle"></i>
+                           </div>
+                        </div>
+                        <div class="experience-dots__column">
+                           <div class="experience-text">CSS</div>
+                        </div>
 
+                     </div>
+
+                     <div class="experience-dots__row">
+                        <div class="experience-dots__column">
+                           <div class="experience-dots">
+                              <i class="experience-dots-item experience-dots-item-accent far fa-circle"></i>
+                              <i class="experience-dots-item experience-dots-item-accent far fa-circle"></i>
+                              <i class="experience-dots-item experience-dots-item-accent far fa-circle"></i>
+                              <i class="experience-dots-item far fa-circle"></i>
+                              <i class="experience-dots-item far fa-circle"></i>
+                           </div>
+                        </div>
+                        <div class="experience-dots__column">
+                           <div class="experience-text">JavaScript</div>
+                        </div>
+
+                     </div>
+
+                     <div class="experience-dots__row">
+                        <div class="experience-dots__column">
+                           <div class="experience-dots">
+                              <i class="experience-dots-item experience-dots-item-accent far fa-circle"></i>
+                              <i class="experience-dots-item experience-dots-item-accent far fa-circle"></i>
+                              <i class="experience-dots-item far fa-circle"></i>
+                              <i class="experience-dots-item far fa-circle"></i>
+                              <i class="experience-dots-item far fa-circle"></i>
+                           </div>
+                        </div>
+                        <div class="experience-dots__column">
+                           <div class="experience-text">React</div>
+                        </div>
+
+                     </div>
+                     <div class="experience-dots__row">
+                        <div class="experience-dots__column">
+                           <div class="experience-dots">
+                              <i class="experience-dots-item experience-dots-item-accent far fa-circle"></i>
+                              <i class="experience-dots-item experience-dots-item-accent far fa-circle"></i>
+                              <i class="experience-dots-item experience-dots-item-accent far fa-circle"></i>
+                              <i class="experience-dots-item far fa-circle"></i>
+                              <i class="experience-dots-item far fa-circle"></i>
+                           </div>
+                        </div>
+                        <div class="experience-dots__column">
+                           <div class="experience-text">Node</div>
+                        </div>
+
+                     </div>
+
+                     <div class="experience-dots__row">
+                        <div class="experience-dots__column">
+                           <div class="experience-dots">
+                              <i class="experience-dots-item experience-dots-item-accent far fa-circle"></i>
+                              <i class="experience-dots-item experience-dots-item-accent far fa-circle"></i>
+                              <i class="experience-dots-item experience-dots-item-accent far fa-circle"></i>
+                              <i class="experience-dots-item far fa-circle"></i>
+                              <i class="experience-dots-item far fa-circle"></i>
+                           </div>
+                        </div>
+                        <div class="experience-dots__column">
+                           <div class="experience-text">React Native</div>
+                        </div>
+
+                     </div>
+
+
+                  </div>
                </div>
-               <div class="experience-dots__row">
-                  <div class="experience-dots__column">
-                     <div class="experience-dots">
-                        <i class="experience-dots-item experience-dots-item-accent far fa-circle"></i>
-                        <i class="experience-dots-item experience-dots-item-accent far fa-circle"></i>
-                        <i class="experience-dots-item experience-dots-item-accent far fa-circle"></i>
-                        <i class="experience-dots-item experience-dots-item-accent far fa-circle"></i>
-                        <i class="experience-dots-item far fa-circle"></i>
-                     </div>
-                  </div>
-                  <div class="experience-dots__column">
-                     <div class="experience-text">CSS</div>
-                  </div>
+            </div>
+            <!--front-page-column-->
 
-               </div>
+            <div class="front-page-column front-page-column-center ">
+               <h1 class="front-page__my-mame">[Oleksandr Shandruk]</h1>
+               <h2 class="front-page__professional">{Frontend} <span
+                     class="front-page__professional_1">_DEVELOPER</span>
+               </h2>
+               <p class="front-page__description">/ Using HTML, CSS, JavaScript, React Native and Node.js I help to
+                  build
+                  websites, small and medium web apps for business</p>
+               <button class="front-page__gallery-btn accent-btn">See my recent works —</button>
 
-               <div class="experience-dots__row">
-                  <div class="experience-dots__column">
-                     <div class="experience-dots">
-                        <i class="experience-dots-item experience-dots-item-accent far fa-circle"></i>
-                        <i class="experience-dots-item experience-dots-item-accent far fa-circle"></i>
-                        <i class="experience-dots-item experience-dots-item-accent far fa-circle"></i>
-                        <i class="experience-dots-item far fa-circle"></i>
-                        <i class="experience-dots-item far fa-circle"></i>
-                     </div>
-                  </div>
-                  <div class="experience-dots__column">
-                     <div class="experience-text">JavaScript</div>
-                  </div>
+               <img src="img/my-photo.jpg" alt="my photo" class="front-page-my-photo desktop-element" data-aos="fade-down" data-aos-delay="1500" />
 
-               </div>
+            </div>
+            <!--front-page-column-->
 
-               <div class="experience-dots__row">
-                  <div class="experience-dots__column">
-                     <div class="experience-dots">
-                        <i class="experience-dots-item experience-dots-item-accent far fa-circle"></i>
-                        <i class="experience-dots-item experience-dots-item-accent far fa-circle"></i>
-                        <i class="experience-dots-item far fa-circle"></i>
-                        <i class="experience-dots-item far fa-circle"></i>
-                        <i class="experience-dots-item far fa-circle"></i>
-                     </div>
+            <div class="front-page-column front-page-column-video" data-aos="fade-left" data-aos-delay="1000">
+               <div class="my-photo__end-button">
+                  <img src="img/my-photo.jpg" alt="myphoto" class="front-page-my-foto">
+                  <div class="my-button-video__end-desc">
+                     <p class="front-page-my-decr">About me <span class="front-page-my-decr_1">in 2 minutes</span> </p>
+                     <buttton class="front-page-my-video-btn" id="my-video-btn">
+                        <i class="fa fa-play" aria-hidden="true"></i>
+                        PLAY
+                     </buttton>
                   </div>
-                  <div class="experience-dots__column">
-                     <div class="experience-text">React</div>
-                  </div>
-
-               </div>
-               <div class="experience-dots__row">
-                  <div class="experience-dots__column">
-                     <div class="experience-dots">
-                        <i class="experience-dots-item experience-dots-item-accent far fa-circle"></i>
-                        <i class="experience-dots-item experience-dots-item-accent far fa-circle"></i>
-                        <i class="experience-dots-item experience-dots-item-accent far fa-circle"></i>
-                        <i class="experience-dots-item far fa-circle"></i>
-                        <i class="experience-dots-item far fa-circle"></i>
-                     </div>
-                  </div>
-                  <div class="experience-dots__column">
-                     <div class="experience-text">Node</div>
-                  </div>
-
-               </div>
-
-               <div class="experience-dots__row">
-                  <div class="experience-dots__column">
-                     <div class="experience-dots">
-                        <i class="experience-dots-item experience-dots-item-accent far fa-circle"></i>
-                        <i class="experience-dots-item experience-dots-item-accent far fa-circle"></i>
-                        <i class="experience-dots-item experience-dots-item-accent far fa-circle"></i>
-                        <i class="experience-dots-item far fa-circle"></i>
-                        <i class="experience-dots-item far fa-circle"></i>
-                     </div>
-                  </div>
-                  <div class="experience-dots__column">
-                     <div class="experience-text">React Native</div>
-                  </div>
-
                </div>
 
 
             </div>
-
+            <!--front-page-column-->
+            <img src="img/laptop.svg" alt="laptop" class="front-page__laptop-img">
          </div>
+      </div>
       </div>
 
    </section>
 
    <section class="about" id="about">
       <div class="container container-left">
-         <h3 class="section-title about-title">I code things from scratch_</h3>
-         <p class="about-descr">
-            <span>[and help to</span>
-            <span>create great web</span>
-            <span>apps]</span>
-         </p>
-         <div class="about-img-container">
-            <p class="about-img-text">
-               WEB
-               <img src="img/web-apps-laptop.png" alt="web apps laptop" class="about-img" />
+         <div class="about-content-wrapper">
+            <h3 class="section-title about-title" data-aos="fade-right" data-aos-delay="300">I code things from scratch_</h3>
+
+            <p class="about-descr mobile-element">
+               <span>[and help to</span>
+               <span>create great web</span>
+               <span>apps]</span>
+            </p>
+
+            <div class="tablet-element desktop-element">
+               <p class="about-descr">
+                  <span>[and help to create</span>
+                  <span>great web apps]</span>
+               </p>
+            </div>
+
+            <div class="about-img-container">
+               <p class="about-img-text">
+                  WEB
+                  <img src="img/web-apps-laptop.png" alt="web apps laptop" class="about-img" />
+               </p>
+            </div>
+            <p class="about-text mobile-element desktop-element">
+               / I will help you to create a high-performance Landing Page, functional
+               corporate website for your business, interactive web app for SaaS,
+               startup, or other services.
+            </p>
+            <p class="about-text tablet-element">
+               / I will help you to create a<br />
+               high-performance Landing Page,<br />
+               functional corporate website for your<br />
+               business, interactive web app for<br />
+               SaaS, startup, or other services.
+            </p>
+            <p class="about-text">
+               / My specialization is front-end development — client side of the web.
+               But I also have full-stack developer experience.
             </p>
          </div>
-         <p class="about-text">
-            / I will help you to create a high-performance Landing Page, functional
-            corporate website for your business, interactive web app for SaaS,
-            startup, or other services.
-         </p>
-         <p class="about-text">
-            / My specialization is front-end development — client side of the web. But
-            I also have full-stack developer experience.
-         </p>
+
+         <div class="about-projects desktop-element" data-aos="fade-up" data-aos-delay="1000" >
+            <div class="about-projects-bar">
+               <p class="about-projects-count">10+</p>
+            </div>
+            <p class="about-projects-text" >completed projects</p>
+         </div>
       </div>
    </section>
 
    <section class="personal-projects" id="projects">
       <div class="container">
-         <h3 class="section-title personal-projects-title">My personal _projects</h3>
-
-         <div class="personal-project-item">
-            <div class="personal-project-item-container">
-               <div class="projet-item-dot-container">
-                  <div class="projet-item-dot"></div>
-                  <div class="projet-item-dot"></div>
-                  <div class="projet-item-dot"></div>
+         <h3 class="section-title personal-projects-title" data-aos="fade-down">My personal _projects</h3>
+         <div class="personal-project-item-wrapper">
+            <div class="personal-project-item">
+               <div class="personal-project-item-container">
+                  <div class="projet-item-dot-container">
+                     <div class="projet-item-dot"></div>
+                     <div class="projet-item-dot"></div>
+                     <div class="projet-item-dot"></div>
+                  </div>
+                  <img src="img/projects/personal/full-stack.jpg" alt="full stack website"
+                     class="personal-project-img" />
                </div>
-               <img src="img/projects/personal/full-stack.jpg" alt="full stack website" class="personal-project-img" />
+               <p class="personal-project-name">
+                  <i class="fas fa-laptop-code personal-project-icon"></i>
+                  <span>Technology: HTML5, CSS3, JS</span>
+               </p>
+               <button class="personal-project-btn accent-btn" id="personal-project-full-stack-btn">More details
+                  —</button>
             </div>
-            <p class="personal-project-name">
-               <i class="fas fa-laptop-code personal-project-icon"></i>
-               <span>Technology: HTML5, CSS3, JS</span>
-            </p>
-            <button class="personal-project-btn accent-btn" id="personal-project-full-stack-btn">More details —</button>
-         </div>
 
-         <div class="personal-project-item">
-            <div class="personal-project-item-container">
-               <div class="projet-item-dot-container">
-                  <div class="projet-item-dot"></div>
-                  <div class="projet-item-dot"></div>
-                  <div class="projet-item-dot"></div>
+            <div class="personal-project-item">
+               <div class="personal-project-item-container">
+                  <div class="projet-item-dot-container">
+                     <div class="projet-item-dot"></div>
+                     <div class="projet-item-dot"></div>
+                     <div class="projet-item-dot"></div>
+                  </div>
+                  <img src="img/projects/personal/wedding.jpg" alt="wedding website" class="personal-project-img" />
                </div>
-               <img src="img/projects/personal/wedding.jpg" alt="wedding website" class="personal-project-img" />
+               <p class="personal-project-name">
+                  <i class="fas fa-laptop-code personal-project-icon"></i>
+                  <span>Technology: HTML, CSS, JavaScript, PHP</span>
+               </p>
+               <button class="personal-project-btn accent-btn" id="personal-project-wedding-project-btn">More details
+                  —</button>
             </div>
-            <p class="personal-project-name">
-               <i class="fas fa-laptop-code personal-project-icon"></i>
-               <span>Technology: HTML, CSS, JavaScript, PHP</span>
-            </p>
-            <button class="personal-project-btn accent-btn" id="personal-project-wedding-project-btn">More details —</button>
-         </div>
 
-         <div class="personal-project-item">
-            <div class="personal-project-item-container">
-               <div class="projet-item-dot-container">
-                  <div class="projet-item-dot"></div>
-                  <div class="projet-item-dot"></div>
-                  <div class="projet-item-dot"></div>
+            <div class="personal-project-item">
+               <div class="personal-project-item-container">
+                  <div class="projet-item-dot-container">
+                     <div class="projet-item-dot"></div>
+                     <div class="projet-item-dot"></div>
+                     <div class="projet-item-dot"></div>
+                  </div>
+                  <img src="img/projects/personal/pro-test.jpg" alt="pro test website" class="personal-project-img" />
                </div>
-               <img src="img/projects/personal/pro-test.jpg" alt="pro test website" class="personal-project-img" />
+               <p class="personal-project-name">
+                  <i class="fas fa-laptop-code personal-project-icon"></i>
+                  <span>Technology: React.js, Node.js</span>
+               </p>
+               <button class="personal-project-btn accent-btn" id="personal-project-pro-test-btn">More details
+                  —</button>
             </div>
-            <p class="personal-project-name">
-               <i class="fas fa-laptop-code personal-project-icon"></i>
-               <span>Technology: React.js, Node.js</span>
-            </p>
-            <button class="personal-project-btn accent-btn" id="personal-project-pro-test-btn">More details —</button>
-         </div>
 
-         <div class="personal-project-item">
-            <div class="personal-project-item-container">
-               <div class="projet-item-dot-container">
-                  <div class="projet-item-dot"></div>
-                  <div class="projet-item-dot"></div>
-                  <div class="projet-item-dot"></div>
+            <div class="personal-project-item">
+               <div class="personal-project-item-container">
+                  <div class="projet-item-dot-container">
+                     <div class="projet-item-dot"></div>
+                     <div class="projet-item-dot"></div>
+                     <div class="projet-item-dot"></div>
+                  </div>
+                  <img src="img/projects/personal/goit.jpg" alt="goit website" class="personal-project-img" />
                </div>
-               <img src="img/projects/personal/goit.jpg" alt="goit website" class="personal-project-img" />
+               <p class="personal-project-name">
+                  <i class="fas fa-laptop-code personal-project-icon"></i>
+                  <span>Technology: HTML, CSS, JavaScript, Wordpress</span>
+               </p>
+               <button class="personal-project-btn accent-btn" id="personal-project-goit-btn">More details —</button>
             </div>
-            <p class="personal-project-name">
-               <i class="fas fa-laptop-code personal-project-icon"></i>
-               <span>Technology: HTML, CSS, JavaScript, Wordpress</span>
-            </p>
-            <button class="personal-project-btn accent-btn" id="personal-project-goit-btn">More details —</button>
          </div>
       </div>
    </section>
@@ -253,38 +308,40 @@
    <section class="team-projects">
       <div class="container">
          <span class="team-projects-title-bgd">TEAM</span>
-         <h3 class="section-title team-projects-title">
+         <h3 class="section-title team-projects-title" data-aos="fade-up" data-aos-anchor-placement="top-center"">
             Teamwork _projects
          </h3>
-         <div class="team-project-item">
-            <div class="personal-project-item-container">
-               <div class="projet-item-dot-container">
-                  <div class="projet-item-dot"></div>
-                  <div class="projet-item-dot"></div>
-                  <div class="projet-item-dot"></div>
+         <div class="team-project-item-wrapper">
+            <div class="team-project-item">
+               <div class="personal-project-item-container">
+                  <div class="projet-item-dot-container">
+                     <div class="projet-item-dot"></div>
+                     <div class="projet-item-dot"></div>
+                     <div class="projet-item-dot"></div>
+                  </div>
+                  <img src="img/projects/team/questify.jpg" alt="quetify app" class="personal-project-img" />
                </div>
-               <img src="img/projects/team/questify.jpg" alt="quetify app" class="personal-project-img" />
+               <p class="team-project-name">
+                  <i class="fas fa-laptop-code personal-project-icon"></i>
+                  Technology: React.js, Node.js
+               </p>
+               <button class="personal-project-btn accent-btn" id="team-project-questify-btn">More details —</button>
             </div>
-            <p class="team-project-name">
-               <i class="fas fa-laptop-code personal-project-icon"></i>
-               Technology: React.js, Node.js
-            </p>
-            <button class="personal-project-btn accent-btn" id="team-project-questify-btn">More details —</button>
-         </div>
-         <div class="team-project-item">
-            <div class="personal-project-item-container">
-               <div class="projet-item-dot-container">
-                  <div class="projet-item-dot"></div>
-                  <div class="projet-item-dot"></div>
-                  <div class="projet-item-dot"></div>
+            <div class="team-project-item">
+               <div class="personal-project-item-container">
+                  <div class="projet-item-dot-container">
+                     <div class="projet-item-dot"></div>
+                     <div class="projet-item-dot"></div>
+                     <div class="projet-item-dot"></div>
+                  </div>
+                  <img src="img/projects/team/it-test.jpg" alt="it test app" class="personal-project-img" />
                </div>
-               <img src="img/projects/team/it-test.jpg" alt="it test app" class="personal-project-img" />
+               <p class="team-project-name">
+                  <i class="fas fa-laptop-code personal-project-icon"></i>
+                  Technology: React.js, Node.js
+               </p>
+               <button class="personal-project-btn accent-btn" id="team-project-it-test-btn">More details —</button>
             </div>
-            <p class="team-project-name">
-               <i class="fas fa-laptop-code personal-project-icon"></i>
-               Technology: React.js, Node.js
-            </p>
-            <button class="personal-project-btn accent-btn" id="team-project-it-test-btn">More details —</button>
          </div>
       </div>
    </section>
@@ -292,13 +349,18 @@
    <section class="callback-form">
       <div class="container">
          <form action="" class="callaback-form-container">
-            <h3 class="callback-form-title">/Are you minding <br>[a project?]</h3>
+            <h3 class="callback-form-title" data-aos="fade-down" data-aos-anchor-placement="top-center"">/Are you minding <span class="callback-form-title-span">[a project?]</span>
+            </h3>
             <div class="callback-form-desc">Leave a request to discuss the task and technical requirements
             </div>
-            <input type="text" class="callback-form-input" placeholder="Name" id="callback-form-input-name">
-            <input type="email" class="callback-form-input" placeholder="Email" id="callback-form-input-email">
-            <input type="tel" class="callback-form-input" placeholder="Phone" id="callback-form-input-phone">
-            <input type="submit" class="callback-form-input accent-btn" value="Discuss the project  —">
+            <div class="callback-form-input-wrapper">
+               <input type="text" class="callback-form-input" placeholder="Name" id="callback-form-input-name">
+               <input type="email" class="callback-form-input" placeholder="Email" id="callback-form-input-email">
+               <input type="tel" class="callback-form-input" placeholder="Phone" id="callback-form-input-phone">
+               <input type="submit" class="callback-form-input accent-btn" value="Discuss the project  —">
+
+            </div>
+
          </form>
       </div>
    </section>
@@ -307,77 +369,91 @@
    <!--  CALCULATOR  -->
    <section class="calculator" id="calculator">
       <div class="container">
-         <h3 class="calculator-title section-title">Calculate_ <br> the cost of a <span class="calculator-title-span"> future project</span></h3>
-         <div class="calculator-descr">
-            <span class="calculator-descr-accent">This is an approximate</span>
-             <span class="calculator-descr-accent">calculation.</span>
-              
+         <div class="calculator-wrapper">
+
+            <div class="calculator-column">
+               <h3 class="calculator-title section-title" data-aos="fade-right" data-aos-anchor-placement="top-center" data-aos-delay="500">Calculate_ <br> the cost of a <span
+                  class="calculator-title-span">
+                  future project</span></h3>
+            <div class="calculator-descr">
+               <span class="calculator-descr-accent">This is an approximate</span>
+               <span class="calculator-descr-accent">calculation.</span>
+
+            </div>
+            <img src="img/calculator.svg" alt="calculator" class="calculator-icon">
+            <p class="calculator-text">/ The final cost depends on the technical requirements, terms, specifics of your
+               project.</p>
+            </div>
+
+            <div class="calculator-column">
+               <form action="" class="calculator-form" data-aos="fade-left" data-aos-anchor-placement="top-center" data-aos-delay="1000">
+                  <div class="calculator-form-input">
+                     <label for="calculator-form-website-type" class="calculator-form-title">What should be done:</label>
+                     <select name="website-type" id="calculator-form-website-type" class="calculator-form-select">
+                        <option selected value="landing-page:600">Landing page</option>
+                        <option value="website:1000">Website</option>
+                        <option value="cms:2000">CMS</option>
+                        <option value="portal:3000">Portal</option>
+                        <option value="e-shop:2000">E-shop</option>
+                     </select>
+                  </div>
+   
+                  <div class="calculator-form-input">
+                     <label for="calculator-form-technologies" class="calculator-form-title">Choose preferred
+                        technologies</label>
+                     <select name="technologies" id="calculator-form-technologies" class="calculator-form-select" multiple>
+                        <option selected value="css:500">CSS</option>
+                        <option selected value="html:500">HTML</option>
+                        <option selected value="js:700">JS</option>
+                        <option value="react:1000">React</option>
+                        <option value="angular:1000">Angular</option>
+                        <option value="php:2000">PHP</option>
+                     </select>
+                  </div>
+   
+                  <div class="calculator-form-input">
+                     <label for="" class="calculator-form-title">Personal account and shopping cart:</label>
+   
+                     <div class="calculator-form-input-radio-container" id="calculator-form-input-cart">
+                        <input checked type="radio" class="calculator-form-input-field" id="calculator-form-input-cart-yes"
+                           name="cart" value="yes">
+                        <label for="calculator-form-input-cart-yes" class="calculator-form-input-label">Yes</label>
+   
+                        <input type="radio" class="calculator-form-input-field" id="calculator-form-input-cart-no"
+                           name="cart" value="no">
+                        <label for="calculator-form-input-cart-yes" class="calculator-form-input-label">No</label>
+                     </div>
+                  </div>
+   
+                  <div class="calculator-form-input">
+                     <label for="" class="calculator-form-title">Requests reception on your email:</label>
+   
+                     <div class="calculator-form-input-radio-container" id="calculator-form-input-reception">
+                        <input checked type="radio" class="calculator-form-input-field"
+                           id="calculator-form-input-reception-yes" name="reception" value="yes">
+                        <label for="calculator-form-input-cart-yes" class="calculator-form-input-label">Yes</label>
+   
+                        <input type="radio" class="calculator-form-input-field" id="calculator-form-input-reception-no"
+                           name="reception" value="no">
+                        <label for="calculator-form-input-cart-yes" class="calculator-form-input-label">No</label>
+                     </div>
+                  </div>
+   
+                  <div class="calculator-form-input">
+                     <p class="calculator-form-total">Cost:</p>
+                     <p class="calculator-form-total-cost">300$</p>
+                  </div>
+   
+                  <input type="submit" value="Find out the cost  —" class="accent-btn">
+   
+               </form>
+
+            </div>
+            
+
+            
          </div>
-         <img src="img/calculator.svg" alt="calculator" class="calculator-icon">
-         <p class="calculator-text">/ The final cost depends on the technical requirements, terms, specifics of your
-            project.</p>
 
-         <form action="" class="calculator-form">
-            <div class="calculator-form-input">
-               <label for="calculator-form-website-type" class="calculator-form-title">What should be done:</label>
-               <select name="website-type" id="calculator-form-website-type" class="calculator-form-select">
-                  <option selected value="landing-page:600">Landing page</option>
-                  <option value="website:1000">Website</option>
-                  <option value="cms:2000">CMS</option>
-                  <option value="portal:3000">Portal</option>
-                  <option value="e-shop:2000">E-shop</option>
-               </select>
-            </div>
-
-            <div class="calculator-form-input">
-               <label for="calculator-form-technologies" class="calculator-form-title">Choose preferred
-                  technologies</label>
-               <select name="technologies" id="calculator-form-technologies" class="calculator-form-select" multiple>
-                  <option selected value="css:500">CSS</option>
-                  <option selected value="html:500">HTML</option>
-                  <option selected value="js:700">JS</option>
-                  <option value="react:1000">React</option>
-                  <option value="angular:1000">Angular</option>
-                  <option value="php:2000">PHP</option>
-               </select>
-            </div>
-
-            <div class="calculator-form-input">
-               <label for="" class="calculator-form-title">Personal account and shopping cart:</label>
-
-               <div class="calculator-form-input-radio-container" id="calculator-form-input-cart">
-                  <input checked type="radio" class="calculator-form-input-field" id="calculator-form-input-cart-yes"
-                     name="cart" value="yes">
-                  <label for="calculator-form-input-cart-yes" class="calculator-form-input-label">Yes</label>
-
-                  <input type="radio" class="calculator-form-input-field" id="calculator-form-input-cart-no" name="cart"
-                     value="no">
-                  <label for="calculator-form-input-cart-yes" class="calculator-form-input-label">No</label>
-               </div>
-            </div>
-
-            <div class="calculator-form-input">
-               <label for="" class="calculator-form-title">Requests reception on your email:</label>
-
-               <div class="calculator-form-input-radio-container" id="calculator-form-input-reception">
-                  <input checked type="radio" class="calculator-form-input-field"
-                     id="calculator-form-input-reception-yes" name="reception" value="yes">
-                  <label for="calculator-form-input-cart-yes" class="calculator-form-input-label">Yes</label>
-
-                  <input type="radio" class="calculator-form-input-field" id="calculator-form-input-reception-no"
-                     name="reception" value="no">
-                  <label for="calculator-form-input-cart-yes" class="calculator-form-input-label">No</label>
-               </div>
-            </div>
-
-            <div class="calculator-form-input">
-               <p class="calculator-form-total">Cost:</p>
-               <p class="calculator-form-total-cost">300$</p>
-            </div>
-
-            <input type="submit" value="Find out the cost  —" class="accent-btn">
-
-         </form>
       </div>
    </section>
 
@@ -390,7 +466,7 @@
                <h3 class="footer-my-name">Oleksandr Shandruk</h3>
                <p class="footer-my-profession">Frontend Developer</p>
             </div>
-   
+
             <div class="footer-column">
                <a href="tel:+380505050505" class="footer-my-tel">+38 (050) 505 05 05</a>
                <a href="mailto:sasha07shandruk@gmail.com" class="footer-my-mail">sasha07shandruk@gmail.com</a>
@@ -412,10 +488,10 @@
             </div>
 
          </div>
-         
-         
 
-         
+
+
+
       </div>
    </footer>
    <!-- MODALS -->
@@ -623,6 +699,8 @@
    <script src="js/project-modals.js"></script>
    <script src="js/modals.js"></script>
    <script src="js/callback-form.js"></script>
+   <script src="js/aos.js"></script>
+   <script src="js/animation-on-scroll.js"></script>
 </body>
 
 </html>
