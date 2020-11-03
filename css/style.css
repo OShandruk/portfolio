@@ -1044,6 +1044,18 @@ footer-column {
   display: none;
 }
 
+/* SWIPER 
+====================================================== */
+.swiper-container {
+  width: 300px;
+  height: auto;
+  margin-bottom: 50px;
+}
+.swiper-button-next, .swiper-button-prev {
+  display: none;
+}
+
+
 /* TEBLET 
 ============================================ */
 
@@ -1225,6 +1237,15 @@ footer-column {
     flex: 1 1 100%;
     display: flex;
     justify-content: flex-start;
+  }
+
+  .swiper-container {
+    width: 600px;
+    height: auto;
+    margin-bottom: 50px;
+  }
+  .swiper-button-next, .swiper-button-prev {
+    display: block;
   }
 
 }
@@ -1530,6 +1551,18 @@ footer-column {
 .project-modal-container {
   height: 100%;
   padding: 90px 90px 5px 90px;
+}
+
+
+/* SWIPER 
+====================================== */
+.swiper-container {
+  width: 1000px;
+  height: auto;
+  margin-bottom: 50px;
+}
+.swiper-button-next, .swiper-button-prev {
+  display: block;
 }
 }
 
